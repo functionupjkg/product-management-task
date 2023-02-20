@@ -3,6 +3,8 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { isValidName, isValidPassword } = require("../validator/validations");
 
+
+
 //=========user registration API ============>>>
 
 const registerUser = (req, res) => {

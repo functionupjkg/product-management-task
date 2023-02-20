@@ -10,10 +10,10 @@
 
 # Below contains the fields to create a product -
 
-Product name
+``Product name
 Price
 Quantity
-Active
+Active``
 
 ### run command :->
 
@@ -23,18 +23,19 @@ npm start
 
 ## Schema queries on work bench :->
 
-CREATE TABLE users (
+``CREATE TABLE users (
 id SERIAL PRIMARY KEY,
 username VARCHAR(50) NOT NULL UNIQUE,
 password VARCHAR(60) NOT NULL
-);
+);``
 
 ## product schema :->
 
-CREATE TABLE products (
+``CREATE TABLE products (
 id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(255) NOT NULL,
 price FLOAT NOT NULL,
 quantity INT NOT NULL,
 active BOOLEAN NOT NULL DEFAULT true
 );
+``

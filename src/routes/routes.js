@@ -10,6 +10,7 @@ const {
   deleteProduct,
 } = require("../controllers/productController");
 
+
 //=========user APIs ============>>>
 
 router.post("/register", registerUser);

@@ -7,7 +7,7 @@
     "start": "npx nodemon src/index.js"
   },
   "keywords": [],
-  "author": "MEENAKSHI LODHI",
+  "author": "JYOTI KUMARI",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",

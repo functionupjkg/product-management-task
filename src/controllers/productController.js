@@ -1,6 +1,8 @@
 const db = require("../db");
 const { isValidName, isValidNumber } = require("../validator/validations");
 
+
+
 //=========create product API ============>>>
 
 const createProduct = async (req, res) => {
